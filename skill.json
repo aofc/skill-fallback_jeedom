@@ -1,0 +1,40 @@
+{
+    "title": "Fallback Jeedom",
+    "url": "",
+    "summary": "",
+    "short_description": "",
+    "description": "",
+    "examples": [
+        "",
+    ],
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
+    "requirements": {
+        "python": [
+            "requests>=2.13.0"
+        ],
+        "system": {},
+        "skill": []
+    },
+    "incompatible_skills": [],
+    "platforms": [
+        "i386",
+        "x86_64",
+        "ia64",
+        "arm64",
+        "arm"
+    ],
+    "branch": "master",
+    "license": "BSD-3-Clause",
+    "icon": "",
+    "category": "",
+    "categories": [],
+    "tags": [],
+    "credits": [
+        "aofc",
+    ],
+    "skillname": "skill-fallback_jeedom",
+    "authorname": "aofc",
+    "foldername": null
+}

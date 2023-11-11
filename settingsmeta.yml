@@ -1,0 +1,24 @@
+skillMetadata:
+   sections:
+      - name: Basic settings
+        fields:
+          - name: api_key
+            type: password
+            label: Enter your Jeedom API key
+            value: ""
+          - name: url
+            type: text
+            label: Enter your Jeedom URL
+            value: "http://my.jeedom.url"
+          - name: room
+            type: text
+            label: Enter the name of the room of this Neon device
+            value: ""
+          - name: verify
+            type: bool/text
+            label: Indicate if SSL should be verified or put the path to a CA certificate to verify your Jeedom URL
+            value: true
+          - name: homepage_url
+            type: text
+            label: If you have a custom homepage to display, enter its URL here and it will be displayed on the Mark II touchscreen. If left blank this feature is disabled. The Jeedom API key will be appended to that URL if it ends with "key="
+            value: ""
